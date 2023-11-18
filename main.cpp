@@ -31,6 +31,7 @@ int main() {
     vector[0].setWordsAmount(150000);
     std::cout << vector[0] << std::endl;
 
+    // Task 6 (functions for filtering and sorting):
     std::cout << std::endl << "Dead languages by words" << std::endl;
     printLanguages(Language::getDeadSortedByWords(vector));
 
